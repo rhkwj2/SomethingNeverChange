@@ -13,6 +13,18 @@
 		9206230E23952684004EECD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9206230C23952684004EECD8 /* Main.storyboard */; };
 		920623102395268B004EECD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9206230F2395268B004EECD8 /* Assets.xcassets */; };
 		920623132395268B004EECD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920623112395268B004EECD8 /* LaunchScreen.storyboard */; };
+		92AC8B0623E99C87003A6A08 /* AnnaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B0423E99C87003A6A08 /* AnnaTableViewCell.swift */; };
+		92AC8B0723E99C87003A6A08 /* AnnaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AC8B0523E99C87003A6A08 /* AnnaTableViewCell.xib */; };
+		92AC8B0A23E99CB6003A6A08 /* ElsaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B0823E99CB6003A6A08 /* ElsaTableViewCell.swift */; };
+		92AC8B0B23E99CB6003A6A08 /* ElsaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AC8B0923E99CB6003A6A08 /* ElsaTableViewCell.xib */; };
+		92AC8B0E23E99D1B003A6A08 /* KristoffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B0C23E99D1B003A6A08 /* KristoffTableViewCell.swift */; };
+		92AC8B0F23E99D1B003A6A08 /* KristoffTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AC8B0D23E99D1B003A6A08 /* KristoffTableViewCell.xib */; };
+		92AC8B1423E99E41003A6A08 /* SvenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B1223E99E40003A6A08 /* SvenTableViewCell.swift */; };
+		92AC8B1523E99E41003A6A08 /* SvenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AC8B1323E99E40003A6A08 /* SvenTableViewCell.xib */; };
+		92AC8B1823E99E82003A6A08 /* OlafTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B1623E99E81003A6A08 /* OlafTableViewCell.swift */; };
+		92AC8B1923E99E82003A6A08 /* OlafTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AC8B1723E99E82003A6A08 /* OlafTableViewCell.xib */; };
+		92AC8B1E23E99EF0003A6A08 /* AllTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B1C23E99EF0003A6A08 /* AllTableViewCell.swift */; };
+		92AC8B1F23E99EF0003A6A08 /* AllTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AC8B1D23E99EF0003A6A08 /* AllTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		9206230F2395268B004EECD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		920623122395268B004EECD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920623142395268B004EECD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92AC8B0423E99C87003A6A08 /* AnnaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnaTableViewCell.swift; sourceTree = "<group>"; };
+		92AC8B0523E99C87003A6A08 /* AnnaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnaTableViewCell.xib; sourceTree = "<group>"; };
+		92AC8B0823E99CB6003A6A08 /* ElsaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElsaTableViewCell.swift; sourceTree = "<group>"; };
+		92AC8B0923E99CB6003A6A08 /* ElsaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElsaTableViewCell.xib; sourceTree = "<group>"; };
+		92AC8B0C23E99D1B003A6A08 /* KristoffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KristoffTableViewCell.swift; sourceTree = "<group>"; };
+		92AC8B0D23E99D1B003A6A08 /* KristoffTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KristoffTableViewCell.xib; sourceTree = "<group>"; };
+		92AC8B1223E99E40003A6A08 /* SvenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvenTableViewCell.swift; sourceTree = "<group>"; };
+		92AC8B1323E99E40003A6A08 /* SvenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SvenTableViewCell.xib; sourceTree = "<group>"; };
+		92AC8B1623E99E81003A6A08 /* OlafTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlafTableViewCell.swift; sourceTree = "<group>"; };
+		92AC8B1723E99E82003A6A08 /* OlafTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OlafTableViewCell.xib; sourceTree = "<group>"; };
+		92AC8B1C23E99EF0003A6A08 /* AllTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTableViewCell.swift; sourceTree = "<group>"; };
+		92AC8B1D23E99EF0003A6A08 /* AllTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,18 @@
 		9206230523952684004EECD8 /* SomethingNeverChange */ = {
 			isa = PBXGroup;
 			children = (
+				92AC8B1223E99E40003A6A08 /* SvenTableViewCell.swift */,
+				92AC8B1323E99E40003A6A08 /* SvenTableViewCell.xib */,
+				92AC8B1623E99E81003A6A08 /* OlafTableViewCell.swift */,
+				92AC8B1723E99E82003A6A08 /* OlafTableViewCell.xib */,
+				92AC8B0423E99C87003A6A08 /* AnnaTableViewCell.swift */,
+				92AC8B0523E99C87003A6A08 /* AnnaTableViewCell.xib */,
+				92AC8B0823E99CB6003A6A08 /* ElsaTableViewCell.swift */,
+				92AC8B0923E99CB6003A6A08 /* ElsaTableViewCell.xib */,
+				92AC8B0C23E99D1B003A6A08 /* KristoffTableViewCell.swift */,
+				92AC8B0D23E99D1B003A6A08 /* KristoffTableViewCell.xib */,
+				92AC8B1C23E99EF0003A6A08 /* AllTableViewCell.swift */,
+				92AC8B1D23E99EF0003A6A08 /* AllTableViewCell.xib */,
 				9206230623952684004EECD8 /* AppDelegate.swift */,
 				9206230823952684004EECD8 /* SceneDelegate.swift */,
 				9206230A23952684004EECD8 /* ViewController.swift */,
@@ -125,9 +161,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AC8B0B23E99CB6003A6A08 /* ElsaTableViewCell.xib in Resources */,
+				92AC8B1523E99E41003A6A08 /* SvenTableViewCell.xib in Resources */,
 				920623132395268B004EECD8 /* LaunchScreen.storyboard in Resources */,
+				92AC8B1923E99E82003A6A08 /* OlafTableViewCell.xib in Resources */,
 				920623102395268B004EECD8 /* Assets.xcassets in Resources */,
+				92AC8B1F23E99EF0003A6A08 /* AllTableViewCell.xib in Resources */,
 				9206230E23952684004EECD8 /* Main.storyboard in Resources */,
+				92AC8B0723E99C87003A6A08 /* AnnaTableViewCell.xib in Resources */,
+				92AC8B0F23E99D1B003A6A08 /* KristoffTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AC8B0A23E99CB6003A6A08 /* ElsaTableViewCell.swift in Sources */,
+				92AC8B1E23E99EF0003A6A08 /* AllTableViewCell.swift in Sources */,
+				92AC8B1423E99E41003A6A08 /* SvenTableViewCell.swift in Sources */,
 				9206230B23952684004EECD8 /* ViewController.swift in Sources */,
 				9206230723952684004EECD8 /* AppDelegate.swift in Sources */,
 				9206230923952684004EECD8 /* SceneDelegate.swift in Sources */,
+				92AC8B0623E99C87003A6A08 /* AnnaTableViewCell.swift in Sources */,
+				92AC8B0E23E99D1B003A6A08 /* KristoffTableViewCell.swift in Sources */,
+				92AC8B1823E99E82003A6A08 /* OlafTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
