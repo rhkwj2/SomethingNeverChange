@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Kristoff" rowHeight="148" id="Gnw-yr-3An" userLabel="Kristoff Table View Cell" customClass="KristoffTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gnw-yr-3An" id="TVP-Nv-Oh6">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="148"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kristoff" translatesAutoresizingMaskIntoConstraints="NO" id="KrB-4W-ySr">
+                        <rect key="frame" x="15" y="15" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="XQE-Rw-iQP"/>
+                            <constraint firstAttribute="width" constant="75" id="eaJ-hb-QhP"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V1Y-Kk-WmD">
+                        <rect key="frame" x="105" y="15" width="102.5" height="63"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Kristoff" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BEW-Az-RLH">
+                                <rect key="frame" x="30" y="15" width="57.5" height="33"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BEW-Az-RLH" firstAttribute="top" secondItem="V1Y-Kk-WmD" secondAttribute="top" constant="15" id="BL4-A1-7Jv"/>
+                            <constraint firstItem="BEW-Az-RLH" firstAttribute="leading" secondItem="V1Y-Kk-WmD" secondAttribute="leading" constant="30" id="RFk-8E-e8Y"/>
+                            <constraint firstItem="BEW-Az-RLH" firstAttribute="height" secondItem="V1Y-Kk-WmD" secondAttribute="height" constant="-30" id="dD1-kb-uiz"/>
+                            <constraint firstAttribute="trailing" secondItem="BEW-Az-RLH" secondAttribute="trailing" constant="15" id="o8B-JI-JKX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KrB-4W-ySr" firstAttribute="leading" secondItem="TVP-Nv-Oh6" secondAttribute="leading" constant="15" id="6ty-CU-xJv"/>
+                    <constraint firstItem="V1Y-Kk-WmD" firstAttribute="leading" secondItem="KrB-4W-ySr" secondAttribute="trailing" constant="15" id="8qg-cS-34B"/>
+                    <constraint firstItem="KrB-4W-ySr" firstAttribute="top" secondItem="TVP-Nv-Oh6" secondAttribute="top" constant="15" id="MsG-hh-mXw"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="V1Y-Kk-WmD" secondAttribute="bottom" constant="15" id="OTi-J1-gtQ"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="V1Y-Kk-WmD" secondAttribute="trailing" constant="15" id="j1j-IM-Q2M"/>
+                    <constraint firstItem="V1Y-Kk-WmD" firstAttribute="top" secondItem="KrB-4W-ySr" secondAttribute="top" id="pfh-T7-X1P"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="EBK-TH-m0M"/>
+            <connections>
+                <outlet property="containerView" destination="V1Y-Kk-WmD" id="tO2-Pm-ssb"/>
+                <outlet property="kristoffTextView" destination="BEW-Az-RLH" id="GO6-7m-493"/>
+            </connections>
+            <point key="canvasLocation" x="184.78260869565219" y="176.78571428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Kristoff" width="260" height="336"/>
+    </resources>
+</document>

@@ -1,5 +1,5 @@
 //
-//  AllTableViewCell.swift
+//  AnnaTableViewCell.swift
 //  SomethingNeverChange
 //
 //  Created by Kim Yeon Jeong on 2020/2/4.
@@ -8,7 +8,12 @@
 
 import UIKit
 
-class AllTableViewCell: UITableViewCell {
+class AnnaTableViewCell: UITableViewCell {
+    
+    
+    @IBOutlet weak var annaTextView: UITextView!
+    @IBOutlet weak var containerView: UIView!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

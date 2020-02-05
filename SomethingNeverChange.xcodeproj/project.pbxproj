@@ -25,6 +25,7 @@
 		92AC8B1923E99E82003A6A08 /* OlafTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AC8B1723E99E82003A6A08 /* OlafTableViewCell.xib */; };
 		92AC8B1E23E99EF0003A6A08 /* AllTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B1C23E99EF0003A6A08 /* AllTableViewCell.swift */; };
 		92AC8B1F23E99EF0003A6A08 /* AllTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AC8B1D23E99EF0003A6A08 /* AllTableViewCell.xib */; };
+		92AC8B2323EA5BA5003A6A08 /* Lyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B2223EA5BA5003A6A08 /* Lyrics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		92AC8B1723E99E82003A6A08 /* OlafTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OlafTableViewCell.xib; sourceTree = "<group>"; };
 		92AC8B1C23E99EF0003A6A08 /* AllTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTableViewCell.swift; sourceTree = "<group>"; };
 		92AC8B1D23E99EF0003A6A08 /* AllTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllTableViewCell.xib; sourceTree = "<group>"; };
+		92AC8B2223EA5BA5003A6A08 /* Lyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyrics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,22 @@
 		9206230523952684004EECD8 /* SomethingNeverChange */ = {
 			isa = PBXGroup;
 			children = (
+				92AC8B2123EA4CF1003A6A08 /* New Group */,
+				9206230623952684004EECD8 /* AppDelegate.swift */,
+				9206230823952684004EECD8 /* SceneDelegate.swift */,
+				9206230A23952684004EECD8 /* ViewController.swift */,
+				92AC8B2223EA5BA5003A6A08 /* Lyrics.swift */,
+				9206230C23952684004EECD8 /* Main.storyboard */,
+				9206230F2395268B004EECD8 /* Assets.xcassets */,
+				920623112395268B004EECD8 /* LaunchScreen.storyboard */,
+				920623142395268B004EECD8 /* Info.plist */,
+			);
+			path = SomethingNeverChange;
+			sourceTree = "<group>";
+		};
+		92AC8B2123EA4CF1003A6A08 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
 				92AC8B1223E99E40003A6A08 /* SvenTableViewCell.swift */,
 				92AC8B1323E99E40003A6A08 /* SvenTableViewCell.xib */,
 				92AC8B1623E99E81003A6A08 /* OlafTableViewCell.swift */,
@@ -92,15 +110,8 @@
 				92AC8B0D23E99D1B003A6A08 /* KristoffTableViewCell.xib */,
 				92AC8B1C23E99EF0003A6A08 /* AllTableViewCell.swift */,
 				92AC8B1D23E99EF0003A6A08 /* AllTableViewCell.xib */,
-				9206230623952684004EECD8 /* AppDelegate.swift */,
-				9206230823952684004EECD8 /* SceneDelegate.swift */,
-				9206230A23952684004EECD8 /* ViewController.swift */,
-				9206230C23952684004EECD8 /* Main.storyboard */,
-				9206230F2395268B004EECD8 /* Assets.xcassets */,
-				920623112395268B004EECD8 /* LaunchScreen.storyboard */,
-				920623142395268B004EECD8 /* Info.plist */,
 			);
-			path = SomethingNeverChange;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92AC8B0A23E99CB6003A6A08 /* ElsaTableViewCell.swift in Sources */,
+				92AC8B2323EA5BA5003A6A08 /* Lyrics.swift in Sources */,
 				92AC8B1E23E99EF0003A6A08 /* AllTableViewCell.swift in Sources */,
 				92AC8B1423E99E41003A6A08 /* SvenTableViewCell.swift in Sources */,
 				9206230B23952684004EECD8 /* ViewController.swift in Sources */,

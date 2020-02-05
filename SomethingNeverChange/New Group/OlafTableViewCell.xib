@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Olaf" rowHeight="148" id="hfU-rF-ihi" userLabel="Olaf Table View Cell" customClass="OlafTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hfU-rF-ihi" id="Szi-5r-cVA">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="148"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Olaf" translatesAutoresizingMaskIntoConstraints="NO" id="KY2-7S-g6e">
+                        <rect key="frame" x="15" y="15" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="YdA-Y4-gW6"/>
+                            <constraint firstAttribute="width" constant="75" id="iGp-hr-syH"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="upe-VL-q8J">
+                        <rect key="frame" x="105" y="15" width="79" height="63"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="olaf" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lTH-mT-9cQ">
+                                <rect key="frame" x="30" y="15" width="34" height="33"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lTH-mT-9cQ" firstAttribute="leading" secondItem="upe-VL-q8J" secondAttribute="leading" constant="30" id="S2V-Vk-j1j"/>
+                            <constraint firstItem="lTH-mT-9cQ" firstAttribute="top" secondItem="upe-VL-q8J" secondAttribute="top" constant="15" id="uzQ-dp-NHD"/>
+                            <constraint firstItem="lTH-mT-9cQ" firstAttribute="height" secondItem="upe-VL-q8J" secondAttribute="height" constant="-30" id="x70-y9-cpt"/>
+                            <constraint firstAttribute="trailing" secondItem="lTH-mT-9cQ" secondAttribute="trailing" constant="15" id="yXC-EU-7op"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="upe-VL-q8J" secondAttribute="bottom" constant="15" id="3Vn-Ax-sw1"/>
+                    <constraint firstItem="KY2-7S-g6e" firstAttribute="top" secondItem="Szi-5r-cVA" secondAttribute="top" constant="15" id="Cv9-7H-93I"/>
+                    <constraint firstItem="upe-VL-q8J" firstAttribute="top" secondItem="KY2-7S-g6e" secondAttribute="top" id="DPu-o1-s7x"/>
+                    <constraint firstItem="upe-VL-q8J" firstAttribute="leading" secondItem="KY2-7S-g6e" secondAttribute="trailing" constant="15" id="hOh-ei-Bhv"/>
+                    <constraint firstItem="KY2-7S-g6e" firstAttribute="leading" secondItem="Szi-5r-cVA" secondAttribute="leading" constant="15" id="jRW-46-H1L"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="upe-VL-q8J" secondAttribute="trailing" constant="15" id="lbB-oN-Pxn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Dc2-6P-QdT"/>
+            <connections>
+                <outlet property="containerView" destination="upe-VL-q8J" id="WnQ-to-TAh"/>
+                <outlet property="olafTextView" destination="lTH-mT-9cQ" id="wjS-dC-n5K"/>
+            </connections>
+            <point key="canvasLocation" x="184.78260869565219" y="176.78571428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Olaf" width="179" height="197"/>
+    </resources>
+</document>

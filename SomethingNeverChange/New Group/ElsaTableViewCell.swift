@@ -1,5 +1,5 @@
 //
-//  OlafTableViewCell.swift
+//  ElsaTableViewCell.swift
 //  SomethingNeverChange
 //
 //  Created by Kim Yeon Jeong on 2020/2/4.
@@ -8,8 +8,14 @@
 
 import UIKit
 
-class OlafTableViewCell: UITableViewCell {
+class ElsaTableViewCell: UITableViewCell {
 
+    
+    
+    @IBOutlet weak var elsaTextView: UITextView!
+    @IBOutlet weak var containerView: UIView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

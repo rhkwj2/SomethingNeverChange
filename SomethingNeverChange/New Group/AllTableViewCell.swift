@@ -1,5 +1,5 @@
 //
-//  SvenTableViewCell.swift
+// AllTableViewCell.swift
 //  SomethingNeverChange
 //
 //  Created by Kim Yeon Jeong on 2020/2/4.
@@ -8,8 +8,13 @@
 
 import UIKit
 
-class SvenTableViewCell: UITableViewCell {
+class AllTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var allTextView: UITextView!
+    @IBOutlet weak var containerView: UIView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

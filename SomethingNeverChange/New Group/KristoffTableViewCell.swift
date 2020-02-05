@@ -9,6 +9,11 @@
 import UIKit
 
 class KristoffTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var kristoffTextView: UITextView!
+     @IBOutlet weak var containerView: UIView!
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
