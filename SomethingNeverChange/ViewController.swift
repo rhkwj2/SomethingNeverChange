@@ -32,19 +32,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.delegate = self
         
         let elsaXib = UINib(nibName: "ElsaTableViewCell", bundle: nil)
-        tableView.register(elsaXib, forCellReuseIdentifier: "Elsa")
+        tableView.register(elsaXib, forCellReuseIdentifier: Characters.Elsa)
         
         let annaXib = UINib(nibName: "AnnaTableViewCell", bundle: nil)
-        tableView.register(annaXib, forCellReuseIdentifier: "Anna")
+        tableView.register(annaXib, forCellReuseIdentifier: Characters.Anna)
         
         let olafXib = UINib(nibName: "OlafTableViewCell", bundle: nil)
-        tableView.register(olafXib, forCellReuseIdentifier: "Olaf")
+        tableView.register(olafXib, forCellReuseIdentifier: Characters.Olaf)
         
         let kristoffXib = UINib(nibName: "KristoffTableViewCell", bundle: nil)
-        tableView.register(kristoffXib, forCellReuseIdentifier: "Kristoff")
+        tableView.register(kristoffXib, forCellReuseIdentifier: Characters.Kristoff)
+        
+        let svenXib = UINib(nibName: "SvenTableViewCell", bundle: nil)
+        tableView.register(svenXib, forCellReuseIdentifier: Characters.Sven)
         
         let allXib = UINib(nibName: "AllTableViewCell", bundle: nil)
-        tableView.register(allXib, forCellReuseIdentifier: "All")
+        tableView.register(allXib, forCellReuseIdentifier: Characters.All)
         
     }
 

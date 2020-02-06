@@ -19,56 +19,6 @@
                                 <rect key="frame" x="7" y="0.0" width="343" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Anna" rowHeight="62" id="rS8-qe-vMU" customClass="AnnaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="343" height="62"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rS8-qe-vMU" id="jyo-E3-DCG" customClass="AnnaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Elsa" rowHeight="62" id="vyU-Xs-Qwo" customClass="ElsaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="90" width="343" height="62"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vyU-Xs-Qwo" id="M0K-cf-ed1" customClass="ElsaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Kristoff" rowHeight="62" id="plM-UV-SAb" customClass="KristoffTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="152" width="343" height="62"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="plM-UV-SAb" id="Ihf-e2-0TW" customClass="KristoffTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Olaf" rowHeight="62" id="Koo-BZ-fLj" customClass="OlafTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="214" width="343" height="62"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Koo-BZ-fLj" id="erM-XC-Wck">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Sven" rowHeight="62" id="2hs-ah-sMq" customClass="SvenTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="276" width="343" height="62"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2hs-ah-sMq" id="Evt-rP-tUp" customClass="SvenTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="All" rowHeight="62" id="3kS-fV-C8J" customClass="AllTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="338" width="343" height="62"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3kS-fV-C8J" id="qcN-zk-nrn" customClass="AllTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
