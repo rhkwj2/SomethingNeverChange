@@ -13,16 +13,16 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
 
-    let lyrics = [Lyrics(text: "Some things never change Like how I'm holding on tight to you", name: "anna"),
-                  Lyrics(text: "Yeah, some things never change. Like the love that I feel for her. Some things stay the same.Like how reindeers are easier. But if I commit and I go for it, I'll know what to say and do. Right?", name: "kristoff"),
-                  Lyrics(text: "Some things never change", name: "sven"),
-                  Lyrics(text: "These days are precious, can't let them slip away. I can't freeze this moment, but I can still go out and seize this day", name: "elsa"),
-                  Lyrics(text: "The wind blows a little bit colder.", name: "all"),
-                  Lyrics(text: "And you all look a little bit older.", name: "olaf"),
-                  Lyrics(text: "And I promise you the flag of Arendelle will always fly", name: "elsa"),
-                  Lyrics(text: "Our flag will always fly. And I'm holding on tight to you.", name: "anna"),
-                  Lyrics(text: "I'm holding on tight to.", name: "olaf"),
-                  Lyrics(text: "I'm holding on tight to you.", name: "elsa")]
+    let lyrics = [Lyrics(text: "Some things never change Like how I'm holding on tight to you", name: Characters.Anna),
+                  Lyrics(text: "Yeah, some things never change. Like the love that I feel for her. Some things stay the same.Like how reindeers are easier. But if I commit and I go for it, I'll know what to say and do Right?", name: Characters.Kristoff),
+                  Lyrics(text: "Some things never change", name: Characters.Sven),
+                  Lyrics(text: "These days are precious, can't let them slip away. I can't freeze this moment, but I can still go out and seize this day", name:Characters.Elsa),
+                  Lyrics(text: "The wind blows a little bit colder.", name: Characters.All),
+                  Lyrics(text: "And you all look a little bit older.", name: Characters.Olaf),
+                  Lyrics(text: "And I promise you the flag of Arendelle will always fly", name: Characters.Elsa),
+                  Lyrics(text: "Our flag will always fly. And I'm holding on tight to you.", name: Characters.Anna),
+                  Lyrics(text: "I'm holding on tight to.", name: Characters.Olaf),
+                  Lyrics(text: "I'm holding on tight to you.", name: Characters.Elsa)]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,7 +72,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         } else if showLyrics.name == Characters.Olaf {
             
-            let olafCell = tableView.dequeueReusableCell(withIdentifier: "olaf", for: indexPath) as! OlafTableViewCell
+            let olafCell = tableView.dequeueReusableCell(withIdentifier: Characters.Olaf, for: indexPath) as! OlafTableViewCell
             olafCell.olafTextView?.text = showLyrics.text
             
             return olafCell
@@ -80,18 +80,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         } else if showLyrics.name == Characters.Kristoff {
         
-            let kristoffCell = tableView.dequeueReusableCell(withIdentifier: "kristoff", for: indexPath) as! KristoffTableViewCell
+            let kristoffCell = tableView.dequeueReusableCell(withIdentifier: Characters.Kristoff, for: indexPath) as! KristoffTableViewCell
             kristoffCell.kristoffTextView?.text = showLyrics.text
         
             return kristoffCell
         
         } else if showLyrics.name == Characters.Sven {
-            let svenCell = tableView.dequeueReusableCell(withIdentifier: "olaf", for: indexPath) as! SvenTableViewCell
+            let svenCell = tableView.dequeueReusableCell(withIdentifier: Characters.Sven, for: indexPath) as! SvenTableViewCell
             svenCell.svenTextView?.text = showLyrics.text
             return svenCell
             
         } else {
-            let allCell = tableView.dequeueReusableCell(withIdentifier: "all", for: indexPath) as! AllTableViewCell
+            let allCell = tableView.dequeueReusableCell(withIdentifier: Characters.All, for: indexPath) as! AllTableViewCell
             allCell.allTextView?.text = showLyrics.text
             return allCell
         }
