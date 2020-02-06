@@ -12,7 +12,7 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Anna" rowHeight="148" id="wtu-Tj-OqG" userLabel="Anna Table View Cell" customClass="AnnaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="385" height="148"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wtu-Tj-OqG" id="JhV-n9-TGs">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wtu-Tj-OqG" id="JhV-n9-TGs" customClass="AnnaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                 <rect key="frame" x="0.0" y="0.0" width="385" height="148"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -54,8 +54,8 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="t9g-xM-5Xy"/>
             <connections>
+                <outlet property="annaTextView" destination="xYQ-y4-1O6" id="67m-Dl-The"/>
                 <outlet property="containerView" destination="Vgr-M2-gw3" id="GUB-Nj-GvK"/>
-                <outlet property="elsaTextView" destination="xYQ-y4-1O6" id="6wC-0D-PGh"/>
             </connections>
             <point key="canvasLocation" x="184.78260869565219" y="176.78571428571428"/>
         </tableViewCell>

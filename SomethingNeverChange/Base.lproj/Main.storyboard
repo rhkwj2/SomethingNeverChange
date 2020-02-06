@@ -20,67 +20,28 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Anna" rowHeight="62" id="rS8-qe-vMU">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Anna" rowHeight="62" id="rS8-qe-vMU" customClass="AnnaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="343" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rS8-qe-vMU" id="jyo-E3-DCG" customClass="AnnaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Anna" translatesAutoresizingMaskIntoConstraints="NO" id="9RX-Q9-uDe">
-                                                    <rect key="frame" x="4" y="6" width="46" height="50"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="AnnaCell" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPd-BA-9Za" customClass="AnnaCell">
-                                                    <rect key="frame" x="58" y="6" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Elsa" rowHeight="62" id="vyU-Xs-Qwo">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Elsa" rowHeight="62" id="vyU-Xs-Qwo" customClass="ElsaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="90" width="343" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vyU-Xs-Qwo" id="M0K-cf-ed1" customClass="ElsaTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Elsa" translatesAutoresizingMaskIntoConstraints="NO" id="CkK-GG-IbI">
-                                                    <rect key="frame" x="282" y="5" width="52" height="53"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="ElsaCell" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esl-Xc-v5A" customClass="ElsaCell">
-                                                    <rect key="frame" x="232" y="5" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Kristoff" rowHeight="62" id="plM-UV-SAb">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Kristoff" rowHeight="62" id="plM-UV-SAb" customClass="KristoffTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="152" width="343" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="plM-UV-SAb" id="Ihf-e2-0TW" customClass="KristoffTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Kristoff" translatesAutoresizingMaskIntoConstraints="NO" id="PdF-tO-Bnv">
-                                                    <rect key="frame" x="4" y="3" width="51" height="57"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="KristoffCell" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYg-NA-GZw" customClass="KristoffCell">
-                                                    <rect key="frame" x="63" y="3" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Olaf" rowHeight="62" id="Koo-BZ-fLj" customClass="OlafTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
@@ -89,40 +50,22 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Koo-BZ-fLj" id="erM-XC-Wck">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Olaf" translatesAutoresizingMaskIntoConstraints="NO" id="MOP-2s-uG5">
-                                                    <rect key="frame" x="285" y="7" width="50" height="49"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Sven" rowHeight="62" id="2hs-ah-sMq">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Sven" rowHeight="62" id="2hs-ah-sMq" customClass="SvenTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="276" width="343" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2hs-ah-sMq" id="Evt-rP-tUp" customClass="SvenTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Sven" translatesAutoresizingMaskIntoConstraints="NO" id="BWz-en-Eet">
-                                                    <rect key="frame" x="6" y="7" width="50" height="51"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="All" rowHeight="62" id="3kS-fV-C8J">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="All" rowHeight="62" id="3kS-fV-C8J" customClass="AllTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="338" width="343" height="62"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3kS-fV-C8J" id="qcN-zk-nrn" customClass="AllTableViewCell" customModule="SomethingNeverChange" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="All" translatesAutoresizingMaskIntoConstraints="NO" id="2VN-bI-tL0">
-                                                    <rect key="frame" x="3" y="4" width="57" height="53"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -140,12 +83,4 @@
             <point key="canvasLocation" x="138.40000000000001" y="116.49175412293854"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="All" width="602" height="537"/>
-        <image name="Anna" width="158" height="173"/>
-        <image name="Elsa" width="205" height="206"/>
-        <image name="Kristoff" width="260" height="336"/>
-        <image name="Olaf" width="179" height="197"/>
-        <image name="Sven" width="133" height="152"/>
-    </resources>
 </document>

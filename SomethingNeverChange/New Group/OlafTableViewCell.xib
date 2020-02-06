@@ -24,10 +24,10 @@
                         </constraints>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="upe-VL-q8J">
-                        <rect key="frame" x="105" y="15" width="79" height="63"/>
+                        <rect key="frame" x="105" y="15" width="82" height="63"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="olaf" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lTH-mT-9cQ">
-                                <rect key="frame" x="30" y="15" width="34" height="33"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Olaf" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lTH-mT-9cQ">
+                                <rect key="frame" x="30" y="15" width="37" height="33"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>

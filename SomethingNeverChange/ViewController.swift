@@ -32,19 +32,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.delegate = self
         
         let elsaXib = UINib(nibName: "ElsaTableViewCell", bundle: nil)
-        tableView.register(elsaXib, forCellReuseIdentifier: "elsa")
+        tableView.register(elsaXib, forCellReuseIdentifier: "Elsa")
         
         let annaXib = UINib(nibName: "AnnaTableViewCell", bundle: nil)
-        tableView.register(annaXib, forCellReuseIdentifier: "anna")
+        tableView.register(annaXib, forCellReuseIdentifier: "Anna")
         
         let olafXib = UINib(nibName: "OlafTableViewCell", bundle: nil)
-        tableView.register(olafXib, forCellReuseIdentifier: "olaf")
+        tableView.register(olafXib, forCellReuseIdentifier: "Olaf")
         
         let kristoffXib = UINib(nibName: "KristoffTableViewCell", bundle: nil)
-        tableView.register(kristoffXib, forCellReuseIdentifier: "kristoff")
+        tableView.register(kristoffXib, forCellReuseIdentifier: "Kristoff")
         
         let allXib = UINib(nibName: "AllTableViewCell", bundle: nil)
-        tableView.register(allXib, forCellReuseIdentifier: "all")
+        tableView.register(allXib, forCellReuseIdentifier: "All")
         
     }
 
@@ -56,42 +56,36 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let showLyrics = lyrics[indexPath.row]
         
-        if showLyrics.name == "elsa" {
+        if showLyrics.name == Characters.Elsa {
             
-            let elsaCell = tableView.dequeueReusableCell(withIdentifier: "elsa", for: indexPath) as! ElsaTableViewCell
+            let elsaCell = tableView.dequeueReusableCell(withIdentifier: Characters.Elsa, for: indexPath) as! ElsaTableViewCell
             elsaCell.elsaTextView?.text = showLyrics.text
             
             return elsaCell
             
-        } else if showLyrics.name == "anna" {
+        } else if showLyrics.name == Characters.Anna {
             
-            let annaCell = tableView.dequeueReusableCell(withIdentifier: "anna", for: indexPath) as! AnnaTableViewCell
+            let annaCell = tableView.dequeueReusableCell(withIdentifier: Characters.Anna, for: indexPath) as! AnnaTableViewCell
             annaCell.annaTextView?.text = showLyrics.text
             
             return annaCell
             
-        } else if showLyrics.name == "olaf"{
+        } else if showLyrics.name == Characters.Olaf {
             
             let olafCell = tableView.dequeueReusableCell(withIdentifier: "olaf", for: indexPath) as! OlafTableViewCell
             olafCell.olafTextView?.text = showLyrics.text
             
             return olafCell
             
-        } else if showLyrics.name == "olaf"{
             
-            let olafCell = tableView.dequeueReusableCell(withIdentifier: "olaf", for: indexPath) as! OlafTableViewCell
-            olafCell.olafTextView?.text = showLyrics.text
-            
-            return olafCell
-            
-        } else if showLyrics.name == "kristoff"{
+        } else if showLyrics.name == Characters.Kristoff {
         
             let kristoffCell = tableView.dequeueReusableCell(withIdentifier: "kristoff", for: indexPath) as! KristoffTableViewCell
             kristoffCell.kristoffTextView?.text = showLyrics.text
         
             return kristoffCell
         
-        } else if showLyrics.name == "sven"{
+        } else if showLyrics.name == Characters.Sven {
             let svenCell = tableView.dequeueReusableCell(withIdentifier: "olaf", for: indexPath) as! SvenTableViewCell
             svenCell.svenTextView?.text = showLyrics.text
             return svenCell

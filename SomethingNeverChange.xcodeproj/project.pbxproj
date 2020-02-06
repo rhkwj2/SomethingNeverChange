@@ -26,6 +26,7 @@
 		92AC8B1E23E99EF0003A6A08 /* AllTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B1C23E99EF0003A6A08 /* AllTableViewCell.swift */; };
 		92AC8B1F23E99EF0003A6A08 /* AllTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AC8B1D23E99EF0003A6A08 /* AllTableViewCell.xib */; };
 		92AC8B2323EA5BA5003A6A08 /* Lyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC8B2223EA5BA5003A6A08 /* Lyrics.swift */; };
+		92BADC9B23EBB22800811BF3 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BADC9A23EBB22800811BF3 /* Characters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		92AC8B1C23E99EF0003A6A08 /* AllTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTableViewCell.swift; sourceTree = "<group>"; };
 		92AC8B1D23E99EF0003A6A08 /* AllTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllTableViewCell.xib; sourceTree = "<group>"; };
 		92AC8B2223EA5BA5003A6A08 /* Lyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyrics.swift; sourceTree = "<group>"; };
+		92BADC9A23EBB22800811BF3 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				9206230623952684004EECD8 /* AppDelegate.swift */,
 				9206230823952684004EECD8 /* SceneDelegate.swift */,
 				9206230A23952684004EECD8 /* ViewController.swift */,
+				92BADC9A23EBB22800811BF3 /* Characters.swift */,
 				92AC8B2223EA5BA5003A6A08 /* Lyrics.swift */,
 				9206230C23952684004EECD8 /* Main.storyboard */,
 				9206230F2395268B004EECD8 /* Assets.xcassets */,
@@ -194,6 +197,7 @@
 				92AC8B0A23E99CB6003A6A08 /* ElsaTableViewCell.swift in Sources */,
 				92AC8B2323EA5BA5003A6A08 /* Lyrics.swift in Sources */,
 				92AC8B1E23E99EF0003A6A08 /* AllTableViewCell.swift in Sources */,
+				92BADC9B23EBB22800811BF3 /* Characters.swift in Sources */,
 				92AC8B1423E99E41003A6A08 /* SvenTableViewCell.swift in Sources */,
 				9206230B23952684004EECD8 /* ViewController.swift in Sources */,
 				9206230723952684004EECD8 /* AppDelegate.swift in Sources */,

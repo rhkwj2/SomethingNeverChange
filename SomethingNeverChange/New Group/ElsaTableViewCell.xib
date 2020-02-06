@@ -55,7 +55,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="containerView" destination="4a6-Lo-4YK" id="R4m-nU-ro8"/>
-                <outlet property="elsaTextView" destination="zxN-Wl-xdX" id="lwe-NN-9Hl"/>
+                <outlet property="elsaTextView" destination="zxN-Wl-xdX" id="RVA-mp-Z42"/>
             </connections>
             <point key="canvasLocation" x="184.78260869565219" y="176.78571428571428"/>
         </tableViewCell>
