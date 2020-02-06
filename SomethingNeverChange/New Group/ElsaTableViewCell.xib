@@ -50,6 +50,7 @@
                     <constraint firstItem="ie8-PL-5mb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Ggf-QC-Xsi"/>
                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4a6-Lo-4YK" secondAttribute="bottom" constant="15" id="TA5-O9-Y6h"/>
                     <constraint firstItem="4a6-Lo-4YK" firstAttribute="top" secondItem="ie8-PL-5mb" secondAttribute="top" id="cgU-IK-jH1"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ie8-PL-5mb" secondAttribute="bottom" constant="15" id="nym-dx-OUU"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

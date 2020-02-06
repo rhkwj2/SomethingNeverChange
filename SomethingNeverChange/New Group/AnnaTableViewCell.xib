@@ -46,6 +46,7 @@
                 <constraints>
                     <constraint firstItem="Vgr-M2-gw3" firstAttribute="top" secondItem="f6s-6L-gMs" secondAttribute="top" id="0By-69-1PT"/>
                     <constraint firstItem="Vgr-M2-gw3" firstAttribute="leading" secondItem="f6s-6L-gMs" secondAttribute="trailing" constant="15" id="HMD-nN-6mm"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="f6s-6L-gMs" secondAttribute="bottom" constant="15" id="ILl-he-bdC"/>
                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Vgr-M2-gw3" secondAttribute="bottom" constant="15" id="OHT-WM-OXa"/>
                     <constraint firstItem="f6s-6L-gMs" firstAttribute="leading" secondItem="JhV-n9-TGs" secondAttribute="leading" constant="15" id="RhY-zD-pkj"/>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Vgr-M2-gw3" secondAttribute="trailing" constant="15" id="ict-30-GGZ"/>
