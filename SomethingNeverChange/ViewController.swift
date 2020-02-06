@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
    
 
     let lyrics = [Lyrics(text: "Some things never change Like how I'm holding on tight to you", name: Characters.Anna),
-                  Lyrics(text: "Yeah, some things never change. Like the love that I feel for her. Some things stay the same.Like how reindeers are easier. But if I commit and I go for it, I'll know what to say and do Right?", name: Characters.Kristoff),
+                  Lyrics(text: "Yeah, some things never change. Like the love that I feel for her. I'll know what to say and do Right?", name: Characters.Kristoff),
                   Lyrics(text: "Some things never change", name: Characters.Sven),
                   Lyrics(text: "These days are precious, can't let them slip away. I can't freeze this moment, but I can still go out and seize this day", name:Characters.Elsa),
                   Lyrics(text: "The wind blows a little bit colder.", name: Characters.All),
@@ -66,8 +66,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             let elsaCell = tableView.dequeueReusableCell(withIdentifier: Characters.Elsa, for: indexPath) as! ElsaTableViewCell
             elsaCell.elsaTextView?.text = showLyrics.text
-            elsaCell.elsaTextView!.font = UIFont.systemFont(ofSize: 22)
-            elsaCell.elsaTextView?.textAlignment = .center
+        
             
             return elsaCell
             

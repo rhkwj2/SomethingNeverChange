@@ -24,13 +24,13 @@
                         </constraints>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4a6-Lo-4YK">
-                        <rect key="frame" x="105" y="15" width="81.5" height="63"/>
+                        <rect key="frame" x="105" y="15" width="98.5" height="67"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Elsa" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zxN-Wl-xdX">
-                                <rect key="frame" x="30" y="15" width="36.5" height="33"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Elsa" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zxN-Wl-xdX">
+                                <rect key="frame" x="30" y="15" width="53.5" height="37"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
