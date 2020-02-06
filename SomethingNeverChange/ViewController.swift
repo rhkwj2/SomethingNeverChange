@@ -12,6 +12,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
+    
+   
 
     let lyrics = [Lyrics(text: "Some things never change Like how I'm holding on tight to you", name: Characters.Anna),
                   Lyrics(text: "Yeah, some things never change. Like the love that I feel for her. Some things stay the same.Like how reindeers are easier. But if I commit and I go for it, I'll know what to say and do Right?", name: Characters.Kristoff),
@@ -59,10 +61,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let showLyrics = lyrics[indexPath.row]
         
+        
         if showLyrics.name == Characters.Elsa {
             
             let elsaCell = tableView.dequeueReusableCell(withIdentifier: Characters.Elsa, for: indexPath) as! ElsaTableViewCell
             elsaCell.elsaTextView?.text = showLyrics.text
+            elsaCell.elsaTextView!.font = UIFont.systemFont(ofSize: 22)
+            elsaCell.elsaTextView?.textAlignment = .center
             
             return elsaCell
             
