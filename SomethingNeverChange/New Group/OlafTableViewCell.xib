@@ -17,7 +17,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Olaf" translatesAutoresizingMaskIntoConstraints="NO" id="KY2-7S-g6e">
-                        <rect key="frame" x="15" y="15" width="75" height="75.000000000000057"/>
+                        <rect key="frame" x="15" y="15" width="75" height="75"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="75" id="YdA-Y4-gW6"/>
                             <constraint firstAttribute="width" constant="75" id="iGp-hr-syH"/>
@@ -47,6 +47,7 @@
                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="upe-VL-q8J" secondAttribute="bottom" constant="15" id="3Vn-Ax-sw1"/>
                     <constraint firstItem="KY2-7S-g6e" firstAttribute="top" secondItem="Szi-5r-cVA" secondAttribute="top" constant="15" id="Cv9-7H-93I"/>
                     <constraint firstItem="upe-VL-q8J" firstAttribute="top" secondItem="KY2-7S-g6e" secondAttribute="top" id="DPu-o1-s7x"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="KY2-7S-g6e" secondAttribute="bottom" constant="15" id="d9u-68-47f"/>
                     <constraint firstItem="upe-VL-q8J" firstAttribute="leading" secondItem="KY2-7S-g6e" secondAttribute="trailing" constant="15" id="hOh-ei-Bhv"/>
                     <constraint firstItem="KY2-7S-g6e" firstAttribute="leading" secondItem="Szi-5r-cVA" secondAttribute="leading" constant="15" id="jRW-46-H1L"/>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="upe-VL-q8J" secondAttribute="trailing" constant="15" id="lbB-oN-Pxn"/>
