@@ -66,7 +66,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             let elsaCell = tableView.dequeueReusableCell(withIdentifier: Characters.Elsa, for: indexPath) as! ElsaTableViewCell
             elsaCell.elsaTextView?.text = showLyrics.text
-            elsaCell.drawChatBubble()
             
             return elsaCell
             
@@ -116,7 +115,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if cell is ElsaTableViewCell {
             cell.layoutIfNeeded()
 //            elsaCell.elsaChatBubble()
-        
+            let elsaCell = cell as! ElsaTableViewCell
+            elsaCell.drawChatBubble(textView: elsaCell.elsaTextView, containerView: elsaCell.containerView)
         } else if cell is AnnaTableViewCell {
             cell.layoutIfNeeded()
 //            annaCell.annaChatBubble()
