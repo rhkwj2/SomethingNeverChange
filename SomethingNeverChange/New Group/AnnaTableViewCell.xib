@@ -23,7 +23,7 @@
                             <constraint firstAttribute="width" constant="75" id="vDb-pf-iRg"/>
                         </constraints>
                     </imageView>
-                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vgr-M2-gw3">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vgr-M2-gw3">
                         <rect key="frame" x="105" y="15" width="98.5" height="67"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Anna" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xYQ-y4-1O6" userLabel="anna text View">
@@ -38,14 +38,14 @@
                         <constraints>
                             <constraint firstItem="xYQ-y4-1O6" firstAttribute="leading" secondItem="Vgr-M2-gw3" secondAttribute="leading" constant="30" id="1Zq-VZ-kIH"/>
                             <constraint firstItem="xYQ-y4-1O6" firstAttribute="height" secondItem="Vgr-M2-gw3" secondAttribute="height" constant="-30" id="9cA-JD-Hcm"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xYQ-y4-1O6" secondAttribute="trailing" constant="15" id="cS8-Aa-TXl"/>
+                            <constraint firstAttribute="trailing" secondItem="xYQ-y4-1O6" secondAttribute="trailing" constant="15" id="cS8-Aa-TXl"/>
                             <constraint firstItem="xYQ-y4-1O6" firstAttribute="top" secondItem="Vgr-M2-gw3" secondAttribute="top" constant="15" id="k6J-fo-pfh"/>
                         </constraints>
                     </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="Vgr-M2-gw3" firstAttribute="top" secondItem="f6s-6L-gMs" secondAttribute="top" id="0By-69-1PT"/>
-                    <constraint firstItem="Vgr-M2-gw3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="f6s-6L-gMs" secondAttribute="trailing" constant="15" id="HMD-nN-6mm"/>
+                    <constraint firstItem="Vgr-M2-gw3" firstAttribute="leading" secondItem="f6s-6L-gMs" secondAttribute="trailing" constant="15" id="HMD-nN-6mm"/>
                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="f6s-6L-gMs" secondAttribute="bottom" constant="15" id="ILl-he-bdC"/>
                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Vgr-M2-gw3" secondAttribute="bottom" constant="15" id="OHT-WM-OXa"/>
                     <constraint firstItem="f6s-6L-gMs" firstAttribute="leading" secondItem="JhV-n9-TGs" secondAttribute="leading" constant="15" id="RhY-zD-pkj"/>
